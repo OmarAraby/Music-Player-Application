@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>task03</title>
+</head>
+<body>
+
+    <div class="myAudio">
+        <img src="images/song.jfif" alt="song_image">
+    </div>
+    <span id="songTitle">Title: </span>
+    <audio src="" onchange="changeAudio()"></audio>
+    <input type="range" oninput="changeTime()" name="audioRange" value="0" min="0">
+
+    <div>
+        <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+    </div>
+    <button onclick="playAudio()">Play</button>
+    <button onclick="pauseAudio()">Pause</button>
+    <button onclick="stopAudio()">Stop</button>
+    <button onclick="muteAudio()">Mute</button>
+    Volume <input type="range" oninput="changeVolume(this)" name="volumeRange" value="1" max="1" min="0" step="0.1">
+    <div class="track">
+        <button onclick="prevAudio()">Prev</button>
+        <button onclick="changeAudio()">Next</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
