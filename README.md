@@ -77,6 +77,7 @@ This project is a **lightweight implementation** designed to **demonstrate core 
 ✔ **Implementing interactive UI components**.
 
 ![image](https://github.com/user-attachments/assets/dc276657-fc07-4c8b-b158-2000ed0cf449)
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/3661db2a-6535-4e6e-a69a-5a13dc7fab3f)
+
 
 
